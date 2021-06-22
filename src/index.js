@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ShoopingList from './ShoopingList';
+import Route from './router';
 
 ReactDOM.render(
   <React.StrictMode>
-      <ShoopingList/>
-    <App />
+      <Route/>
   </React.StrictMode>,
   document.getElementById('root')
 );
